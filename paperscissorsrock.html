@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paper Scissors Rock</title>
+    <script src="paperscissorsrock.js"></script>
+  </head>
+  <body style="background-color: #aaa" onload="newGame()">
+    <input type="button" value="Reset" style="width:235px; height:25px" onclick="newGame()"><br><br>
+    <input type="button" value="paper" style="width:75px; height:75px" onclick="playerRoll(1)"> 
+    <input type="button" value="scissors" style="width:75px; height:75px" onclick="playerRoll(2)"> 
+    <input type="button" value="rock" style="width:75px; height:75px" onclick="playerRoll(3)">
+    <br><br>
+    Player&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer<br>
+    <input id="playerScore" type="text" size="3"> <input id="computerScore" type="text" size="3">
+    <br>
+    <p id="output"></p>
+  </body>
+</html>
